@@ -35,7 +35,7 @@ namespace Foo
 }
 ```
 
-Notice: The Main method MUST be inside a class! (Classname doesn't matter in this case, and the *namespace* is optional)
+Notice: The Main method MUST be inside a class! (Classname doesn't matter in this case, and the **namespace** is optional)
 
 Compile the Assembly
 ```
@@ -44,4 +44,11 @@ csc.exe first.cs
 
 - This should result in an output file _first.exe_ 
 - Run it!
+
+# Assemblies NEEDS a Main method
+
+- Now try renaming your **Main** method to **Main**
+- Try to recompile
+- You should receive an error with something like _does not contain a static 'Main' method_
+- This is because ALL Assemblies in .NET (and what we are building here is an assembly) needs a single entry-point, which, by convention, MUST be name **Main** NO EXCEPTIONS!
 
