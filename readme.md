@@ -10,7 +10,7 @@ typically something like
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
 ```
 
-2. Make sure the compiler is either placed in path or otherwise, so it can be executed whenever needed
+2. Make sure the compiler is either added to the _windows environment path_ or otherwise, so it can be executed whenever needed
 
 Everything (almost!) is a class in .NET!!
 
