@@ -47,7 +47,7 @@ csc.exe first.cs
 
 # Assemblies NEEDS a Main method
 
-- Now try renaming your **Main** method to **Main**
+- Now try renaming your **Main** method to **Main2**
 - Try to recompile
 - You should receive an error with something like _does not contain a static 'Main' method_
 - This is because ALL Assemblies in .NET (and what we are building here is an assembly) needs a single entry-point, which, by convention, MUST be name **Main** NO EXCEPTIONS!
