@@ -56,5 +56,5 @@ csc.exe first.cs
 - Get your stuff back and working from last exercise
 - Remove the **using statement** at the top of the _first.cs_ file
 - Try to recompile, you should receive the following error messagge: **_The name 'Console' does not exist in the current context_**
-- Why??? And how do you fix this, if you are not allowed to use any _using statements_?
+- Why??? And how do you fix this, if you are not allowed to use any _using statements_? (Hint: _take a look at the documentation for the Console Class [MSDN on Console Class](https://msdn.microsoft.com/en-us/library/system.console(v=vs.110).aspx) and examine what namespace the class resides under_)
 
