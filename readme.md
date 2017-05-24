@@ -1,6 +1,10 @@
 # .NET 101
 ## By Morten la Cour
 
+# Table of Contents
+1. [Getting Started](#getting-started)
+2. [Main Method](#main-method)
+3. [The Using Statement](#the-using-statement)
 
 ## Getting started
 
@@ -46,7 +50,9 @@ csc.exe first.cs
 - This should result in an output file _first.exe_ 
 - Run it!
 
-# Executables NEEDS a Main method
+[Back to top](#table-of-contents)
+
+# Main method
 
 - Now try renaming your **Main** method to **Main2**
 - Try to recompile
@@ -59,5 +65,6 @@ csc.exe first.cs
 - Try to recompile, you should receive the following error messagge: **_The name 'Console' does not exist in the current context_**
 - Why??? And how do you fix this, if you are not allowed to use any _using statements_? (Hint: _take a look at the documentation for the Console Class [MSDN on Console Class](https://msdn.microsoft.com/en-us/library/system.console(v=vs.110).aspx) and examine what namespace the class resides under_)
 
-# More 
+# More files in same assembly
+TBD
 
