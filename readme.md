@@ -69,7 +69,7 @@ csc.exe first.cs
 
 [Back to top](#table-of-contents)
 
-# More files in same assembly
+# More files in the same assembly
 TBD
 
 [Back to top](#table-of-contents)
