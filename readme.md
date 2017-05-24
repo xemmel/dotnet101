@@ -15,8 +15,9 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
 Everything (almost!) is a class in .NET!!
 
 - Even the smallest program needs to be executed inside a class
-- All Assemblies (.exe) contains a _Main Method_
+- All Executables (.exe) contains a _Main Method_
 - Libraries (.dll) do not, and cannot execute by themself
+- Both of them are _Assemblies_
 
 3. Create a small text file _first.cs_
 
@@ -37,7 +38,7 @@ namespace Foo
 
 Notice: The Main method MUST be inside a class! (Classname doesn't matter in this case, and the **namespace** is optional)
 
-Compile the Assembly
+Compile the assembly
 ```
 csc.exe first.cs
 ```
@@ -45,16 +46,18 @@ csc.exe first.cs
 - This should result in an output file _first.exe_ 
 - Run it!
 
-# Assemblies NEEDS a Main method
+# Executables NEEDS a Main method
 
 - Now try renaming your **Main** method to **Main2**
 - Try to recompile
 - You should receive an error with something like _does not contain a static 'Main' method_
-- This is because ALL Assemblies in .NET (and what we are building here is an assembly) needs a single entry-point, which, by convention, MUST be named **Main** NO EXCEPTIONS!
+- This is because ALL executables in .NET (and what we are building here is an executable) needs a single entry-point, which, by convention, MUST be named **Main** NO EXCEPTIONS!
 
 # The Using statement
 - Get your stuff back and working from last exercise
 - Remove the **using statement** at the top of the _first.cs_ file
 - Try to recompile, you should receive the following error messagge: **_The name 'Console' does not exist in the current context_**
 - Why??? And how do you fix this, if you are not allowed to use any _using statements_? (Hint: _take a look at the documentation for the Console Class [MSDN on Console Class](https://msdn.microsoft.com/en-us/library/system.console(v=vs.110).aspx) and examine what namespace the class resides under_)
+
+# More 
 
