@@ -71,7 +71,47 @@ csc.exe first.cs
 [Back to top](#table-of-contents)
 
 # Multiple files
-TBD
+
+The main file..
+```cs
+??????
+
+
+```
+
+## The new file
+
+```cs
+	using System;
+	namespace vertica.common
+	{
+	internal  class Person
+	{
+		private string _name; 
+		public Person() 
+		{
+				_name = "Jane Doe";
+		}
+		public Person(string name) 
+		{
+			_name = name;
+			
+		}
+		
+		
+		public void Speak(int count = 1)  //Default parameter, set to 1 if nothing is supplied
+		{
+			for(int i = 0; i < count; i++)
+				Console.WriteLine("Hello my name is " + _name);
+		}
+		
+	}
+	}
+
+```
 
 [Back to top](#table-of-contents)
+
+
+
 
