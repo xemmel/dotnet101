@@ -25,7 +25,7 @@ Everything (almost!) is a class in .NET!!
 
 3. Create a small text file _first.cs_
 
-```charp
+```cs
 using System;
 
 namespace Foo 
