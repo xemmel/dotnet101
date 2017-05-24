@@ -5,6 +5,7 @@
 1. [Getting Started](#getting-started)
 2. [Main Method](#main-method)
 3. [The Using Statement](#the-using-statement)
+4. [Multiple files](#multiple-files)
 
 ## Getting started
 
@@ -69,7 +70,7 @@ csc.exe first.cs
 
 [Back to top](#table-of-contents)
 
-# More files in the same assembly
+# Multiple files
 TBD
 
 [Back to top](#table-of-contents)
